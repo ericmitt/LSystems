@@ -1,0 +1,5 @@
+A:AA
+B:BA[BA][CA]
+C:CA[CA][BA]
+[:[
+]:]

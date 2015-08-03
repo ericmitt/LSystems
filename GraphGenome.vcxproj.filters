@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>9391d9d2-de27-4a45-a07b-e958b85a5b88</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Common">
+      <UniqueIdentifier>{134a8f84-73ac-467d-922b-73c2c380c4e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectXBase.cpp" />
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="DirectXPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="GenomeRenderer.cpp" />
+    <ClCompile Include="GenomeGenerator.cpp" />
+    <ClCompile Include="Noeud.cpp" />
+    <ClCompile Include="Rules.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="DirectXPage.xaml.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="DirectXHelper.h" />
+    <ClInclude Include="DirectXBase.h" />
+    <ClInclude Include="GenomeRenderer.h" />
+    <ClInclude Include="GenomeGenerator.h" />
+    <ClInclude Include="Noeud.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Rules.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphGenome_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DirectXPage.xaml" />
+    <Page Include="StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GraphGenome.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LSyst_logo.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="LSyst_logo_small.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="LSystem.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="lsystems150-150.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="LSystems300150.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="lsystems3030.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="LSystems620-300.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+créer un répertoire pour la solution
+décompresser les fichiers
+build de la solution
+la solution est livrée telle quelle est issue de mes soirées de coding...:-)
+
+au run time utiliser des fichiers texte de la forme
+
+A:AA
+B:BA[BA][CA]
+C:CA[CA][BA]
+[:[
+]:]
+
+cf. rule1.txt et rules3.txt en exemple

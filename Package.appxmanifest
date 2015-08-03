@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="5ff6bc8b-21c5-43e3-ad45-1bd6e5ea3736" Publisher="CN=ericmitt" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>GraphGenome</DisplayName>
+    <PublisherDisplayName>ericmitt</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3</OSMinVersion>
+    <OSMaxVersionTested>6.3</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GraphGenome.App">
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="rules">
+            <DisplayName>LSystem Rules</DisplayName>
+            <InfoTip>LSystem rules</InfoTip>
+            <SupportedFileTypes>
+              <FileType>.txt</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+      </Extensions>
+      <m2:VisualElements DisplayName="GraphGenome" Description="GraphGenome" BackgroundColor="#464646" ForegroundText="light" Square150x150Logo="lsystems150-150.jpg" Square30x30Logo="lsystems3030.jpg">
+        <m2:DefaultTile Wide310x150Logo="LSystems300150.jpg">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="LSystems620-300.jpg" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="documentsLibrary" />
+  </Capabilities>
+</Package>

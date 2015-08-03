@@ -1,0 +1,5 @@
+A:ACABBACA
+B:B
+C:C
+[:[
+]:]
